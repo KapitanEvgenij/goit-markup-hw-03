@@ -15,6 +15,29 @@
     --main-font: "Roboto", sans-serif;
 }
 
+
+/* ---------- reset styles -------------*/
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+
 body {
     font-family: var(--main-font);
     color: var(--main-text-color);
@@ -45,8 +68,19 @@ a.active {
     margin: -1px;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
+
 
 /*--------- HEADER STYLES --------- */
+.header {
+    padding: 24px 0;
+}
 
 .header-logo {
     font-family: 'Raleway';
@@ -69,6 +103,8 @@ a.active {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-nav-color);
+    display: inline-block;
+    padding: 3px 0;
         
 }
 
@@ -90,16 +126,27 @@ a.active {
 /*--------- HERO STYLES --------- */
 .hero {
     background-color: var(--main-bg-color);
+    
+}
+    
+.hero {
+text-align: center;
+padding: 200px 0;
+
 }
 
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--main-title-color);
+    max-width: 696px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
 }
 
 .hero-btn {
@@ -107,13 +154,15 @@ a.active {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: var(--main-btn-color);
-    cursor: pointer;
+    display: block;
+    min-width: 200px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -123,6 +172,14 @@ a.active {
 }
  
 /*--------- Features STYLES --------- */
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features-item {
+    width: 270px;
+}
 
 .features-subtitle {
     font-weight: 700;
@@ -131,6 +188,7 @@ a.active {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);
+    margin-bottom: 10px;
 }
 
 .features-text {
@@ -141,6 +199,12 @@ a.active {
 
 /*--------- Products STYLES --------- */
 
+.products {
+    padding-bottom: 94px;
+}
+
+
+
 .products-title {
     font-weight: 700;
     font-size: 36px;
@@ -148,12 +212,21 @@ a.active {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    margin-bottom: 50px;
 }
 
 /*--------- TEAM STYLES --------- */
 
 .team {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-item {
+    width: 270px;
+    padding-bottom: 30px;
+   
 }
 
 .team-title {
@@ -163,10 +236,13 @@ a.active {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+
+    margin-bottom: 50px;
 }
 
 .team-item {
     background-color: var(--team-card-bg);
+
 }
 
 .team-subtitle {
@@ -176,6 +252,8 @@ a.active {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -188,6 +266,8 @@ a.active {
 /*--------- Footer STYLES --------- */
 .footer {
     background-color: var(--main-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -197,6 +277,8 @@ a.active {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-light-color);
+    margin-bottom: 20px;
+    display: block;
 }
 
 .footer-logo span {
@@ -213,6 +295,10 @@ a.active {
 
 .footer-address {
     color: #FFFFFF;
+}
+
+.footer-item {
+    margin-bottom: 10px;
 }
 
 .footer-email,
