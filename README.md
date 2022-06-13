@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-Homework #3 for modul 3 - Block model CSS. Flexbox
+# goit-markup-hw-01
+Homework #1 for modul 1 - HTML Basics
