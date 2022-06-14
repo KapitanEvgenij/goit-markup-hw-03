@@ -73,13 +73,14 @@ a.active {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+
 }
 
 
 /*--------- HEADER STYLES --------- */
 .header {
     padding: 24px 0;
+    border-bottom: 1px solid #ECECEC;
     
 }
 .header .container {
@@ -274,7 +275,7 @@ padding: 200px 0;
 }
 
 .team-item {
-    flex-basis: calc(100%/3-30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin: 15px;
     padding-bottom: 30px;
     background-color: var(--team-card-bg);
@@ -416,8 +417,9 @@ padding: 200px 0;
 }
 
 .portfolio-item {
-    width:calc(100%/3-30px);
+    width:calc(100% / 3 - 30px);
     margin: 15px;
+    border-bottom: 1px solid #EEEEEE;
     
 }
 
