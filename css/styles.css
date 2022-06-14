@@ -416,7 +416,7 @@ padding: 200px 0;
     margin: -15px;
 }
 
-.portfolio-item {
+.portfolio-list .portfolio-item {
     width:calc(100% / 3 - 30px);
     margin: 15px;
     border-bottom: 1px solid #EEEEEE;
