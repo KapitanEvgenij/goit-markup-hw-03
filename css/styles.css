@@ -331,6 +331,9 @@ padding: 200px 0;
     color: #212121;
     background-color: var(--second-btn-color);
     cursor: pointer;
+    padding: 6px 22px;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -340,12 +343,22 @@ padding: 200px 0;
 }
 
 /*------- Portfolio gallery ----------------*/
+.portfolio-item {
+    width: 370px;
+    
+}
+
+.portfolio-title-wrap {
+    padding: 20px 24px;
+}
+
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--second-title-color);
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
